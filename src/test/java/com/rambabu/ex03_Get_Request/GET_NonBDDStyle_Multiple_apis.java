@@ -1,15 +1,13 @@
 package com.rambabu.ex03_Get_Request;
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
 import io.qameta.allure.Description;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import javafx.beans.binding.When;
 import org.testng.annotations.Test;
 
-public class Multiple_APITesting2_GET_Non_BDDStyle {
+public class GET_NonBDDStyle_Multiple_apis {
     RequestSpecification r;
     Response response;
     ValidatableResponse vr;
